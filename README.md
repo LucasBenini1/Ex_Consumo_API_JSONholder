@@ -1,12 +1,11 @@
-# React + Vite
+# Desenvolvimento de aplicação React
+A aplicação manipula dados recebidos de uma API, como exibição dos mesmos e compartilhamento entre componentes via Context API.
+Foi utilizado React-Router-Dom para navegação entre páginas.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Foi utilizado
+- React
+- Context API
+- React Router Dom
+- JsonHolder API
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+É um simples desenvolvimento acadêmico para estudo principalmente do uso do Context API, ferramenta poderosa no desenvolvimento front-end.
