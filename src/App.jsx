@@ -35,8 +35,8 @@ function App() {
     setPagina(pagina + 10);
   }
 
-  function deleteItem() {
-    alert("Funciona")
+  function deleteItem(id) {
+    setItem((prev) => prev.filter((item) => item.id !== id));
   }
 
     //Essa foi o chat que fez. Pega o id, coloca numa variavel e adiciona por esta variavel.

@@ -14,7 +14,7 @@ function Carrinho( { deleteItem } ){
             {item.map((item, index) => (
                 <div className={styles.listItem}>
                      <p key={index}>- {item.title}</p>
-                     <span onClick={() => deleteItem()}>Remover</span>
+                     <span onClick={() => deleteItem(item.id)}>Remover</span>
                 </div>
             ))}
             </div>
